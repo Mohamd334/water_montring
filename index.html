@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رصد تلوث نهر دجلة</title>
+    <link rel="stylesheet" href="/css.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>رصد جودة مياه نهر دجلة</h1>
+        <div class="data-box">
+            <div class="data" id="ph-box">
+                <span class="label">درجة الحموضة (pH):</span>
+                <span class="value" id="ph">جاري التحميل...</span>
+            </div>
+            <div class="data" id="turbidity-box">
+                <span class="label">العكارة:</span>
+                <span class="value" id="turbidity">جاري التحميل...</span>%
+            </div>
+        </div>
+        <button id="refresh-btn">تحديث يدوي</button>
+    </div>
+
+    <!-- Firebase SDK -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
